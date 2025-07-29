@@ -19,7 +19,7 @@ body {
     color: var(--text-color);
     zoom: 110%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 30px 150px;
+    margin: 30px 10%;
     transition: 0.3s;
 }
 
@@ -39,7 +39,14 @@ body {
 
 @media (max-width: 620px) {
     body {
-        margin: 15px;
+        margin: 5%;
+        zoom: 100%;
+    }
+}
+
+@media (max-width: 750px) {
+    body {
+        margin: 6%;
         zoom: 100%;
     }
 }
@@ -47,10 +54,6 @@ body {
 h1 {
     border-bottom: 4px solid var(--red-color);
     padding-bottom: 15px;
-}
-
-p {
-    text-align: justify;
 }
 
 hr {
