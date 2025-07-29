@@ -49,6 +49,10 @@ h1 {
     padding-bottom: 15px;
 }
 
+p {
+    text-align: justify;
+}
+
 hr {
     border: 0;
     border-top: 1px solid var(--red-color);
