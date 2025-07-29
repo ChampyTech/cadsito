@@ -19,7 +19,7 @@ body {
     color: var(--text-color);
     zoom: 110%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 25px;
+    margin: 30px 150px;
     transition: 0.3s;
 }
 
