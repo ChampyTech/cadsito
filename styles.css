@@ -19,7 +19,7 @@ body {
     color: var(--text-color);
     zoom: 110%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 30px 10%;
+    margin: 30px 150px;
     transition: 0.3s;
 }
 
@@ -37,14 +37,20 @@ body {
     background: var(--dark-red-color);
 }
 
+@media (max-width: 1100px) {
+    body {
+        margin: 7%;
+    }
+}
+
 @media (max-width: 620px) {
     body {
-        margin: 5%;
+        margin: 4%;
         zoom: 100%;
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 900px) {
     body {
         margin: 6%;
         zoom: 100%;
