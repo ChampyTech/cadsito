@@ -71,7 +71,6 @@ hr {
 #servoDellaGlebaButton {
     cursor: pointer;
     width: 100%;
-    max-width: 600px;
     font-size: 25px;
     background: var(--red-color);
     border: 0;
