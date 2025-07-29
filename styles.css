@@ -51,7 +51,7 @@ h1 {
 
 hr {
     border: 0;
-    border-top: 2px solid var(--red-color);
+    border-top: 1px solid var(--red-color);
     margin-top: 25px;
 }
 
