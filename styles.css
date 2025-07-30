@@ -125,6 +125,12 @@ a {
     border-radius: 15%;
     cursor: pointer;
     z-index: 99;
+    transition: 0.3s;
+}
+
+#returnToTopButton:hover {
+    background: var(--dark-red-color);
+    transform: scale(1.05);
 }
 
 #returnToTopButton a {
