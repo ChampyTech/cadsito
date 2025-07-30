@@ -85,7 +85,14 @@ hr {
 }
 
 a {
-    color: var(--red-color);
+    color: black;
+    border-bottom: 2px solid red;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: red;
 }
 
 .topnav {
@@ -103,6 +110,7 @@ a {
     top: 30px;
     right: 30px;
     transform: scale(1.50);
+    border-bottom: none;
 }
 
 @media (max-width: 550px) {
