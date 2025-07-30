@@ -114,3 +114,20 @@ a {
         display: none;
     }
 }
+
+#returnToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--red-color);
+    border: none;
+    padding: 10px;
+    border-radius: 15%;
+    cursor: pointer;
+    z-index: 99;
+}
+
+#returnToTopButton a {
+    font-size: 20px;
+    text-decoration: none;
+}
