@@ -53,6 +53,7 @@ body {
 h1 {
     border-bottom: 4px solid var(--red-color);
     padding-bottom: 15px;
+    display: block;
 }
 
 hr {
@@ -85,4 +86,31 @@ hr {
 
 a {
     color: var(--red-color);
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+
+.topnav #links {
+    display: none;
+}
+
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    transform: scale(1.50);
+}
+
+@media (max-width: 550px) {
+    .topnav #links {
+        display: contents;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
 }
