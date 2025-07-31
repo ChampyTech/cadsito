@@ -22,7 +22,7 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
     zoom: 110%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     margin: 25px 150px;
     transition: 0.3s;
 }
