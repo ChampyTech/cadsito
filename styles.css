@@ -124,19 +124,6 @@ hr {
     position: relative;
 }
 
-.topnav #links {
-    display: none;
-}
-
-.topnav a.icon {
-    display: block;
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    transform: scale(1.50);
-    border-bottom: none;
-}
-
 @media (max-width: 550px) {
     .topnav #links {
         display: contents;
