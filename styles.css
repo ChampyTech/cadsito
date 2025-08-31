@@ -49,11 +49,15 @@ button {
     border-radius: 5px;
     transition: 0.3s;
     padding: 10px 16px;
-    margin: 5px 0;
 }
 
 button:hover {
     background: var(--dark-red-color);
+}
+
+.shareButton {
+    font-size: 15px;
+    margin: 5px 0;
 }
 
 #returnToTopButton {
