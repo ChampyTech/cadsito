@@ -47,7 +47,7 @@ button {
     cursor: pointer;
     border: 0;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: 0.2s;
     padding: 10px 16px;
 }
 
@@ -58,6 +58,18 @@ button:hover {
 .shareButton {
     font-size: 15px;
     margin: 5px 0;
+    background-color: var(--red-color);
+    border: 0;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.shareButton:hover {
+    color: white;
+    background-color: var(--dark-red-color);
 }
 
 #returnToTopButton {
