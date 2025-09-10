@@ -1,16 +1,17 @@
 :root {
+    --color: red;
+    --main-color: color-mix(in srgb, var(--color) 90%, white);
+    --dark-color: color-mix(in srgb, var(--color) 75%, black);
+    --selection-color: color-mix(in srgb, var(--color) 40%, white);
     --bg-color: white;
     --text-color: black;
-    --red-color: #ff3939;
-    --dark-red-color: #c20000;
-    --selection-color: #ffabab;
     --link-text-color: black;
 }
 
 .dark {
     --bg-color: #121212;
     --text-color: white;
-    --selection-color: #ce0000;
+    --selection-color: color-mix(in srgb, var(--color) 50%, black);
     --link-text-color: white;
 }
 
@@ -32,17 +33,17 @@ body {
 
 a {
     color: var(--link-text-color);
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid var(--color);
     text-decoration: none;
     transition: 0.2s;
 }
 
 a:hover {
-    color: red;
+    color: var(--color);
 }
 
 button {
-    background: var(--red-color);
+    background: var(--main-color);
     color: white;
     cursor: pointer;
     border: 0;
@@ -52,13 +53,13 @@ button {
 }
 
 button:hover {
-    background: var(--dark-red-color);
+    background: var(--dark-color);
 }
 
 .shareButton {
     font-size: 15px;
     margin: 5px 0;
-    background-color: var(--red-color);
+    background-color: var(--main-color);
     border: 0;
     color: white;
     padding: 10px 16px;
@@ -69,7 +70,7 @@ button:hover {
 
 .shareButton:hover {
     color: white;
-    background-color: var(--dark-red-color);
+    background-color: var(--dark-color);
 }
 
 #returnToTopButton {
@@ -105,19 +106,19 @@ button:hover {
 }
 
 h1 {
-    border-bottom: 4px solid var(--red-color);
+    border-bottom: 4px solid var(--main-color);
     padding-bottom: 15px;
     display: block;
 }
 
 hr {
     border: 0;
-    border-top: 1px solid var(--red-color);
+    border-top: 1px solid var(--main-color);
     margin-top: 30px;
 }
 
 .autocad {
-    color: var(--red-color);
+    color: var(--main-color);
     font-size: 70px;
     font-weight: bold;
 }
@@ -126,7 +127,7 @@ hr {
     cursor: pointer;
     width: 100%;
     font-size: 25px;
-    background: var(--red-color);
+    background: var(--main-color);
     border: 0;
     color: white;
     border-radius: 10px;
@@ -135,7 +136,7 @@ hr {
 }
 
 #servoDellaGlebaButton:hover {
-    background: var(--dark-red-color);
+    background: var(--dark-color);
 }
 
 .topnav {
